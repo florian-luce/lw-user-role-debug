@@ -228,3 +228,15 @@ class lw_role_debug {
 
 //$userIdToUpdate = 0;
 //$debug->setUserRole( $userIdToUpdate );
+
+
+// Restore default WordPress Roles
+// if ( !function_exists( 'populate_roles' ) ) {
+	// var_dump('OK3');
+  // require_once( ABSPATH . 'wp-admin/includes/schema.php' );
+// }
+// populate_roles();
+
+// var_dump( wp_update_user( array( 'ID' => '1', 'role' => 'administrator' ) ) );
+
+//Use this in plugin or theme)
